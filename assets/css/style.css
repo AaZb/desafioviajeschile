@@ -18,7 +18,7 @@ h4 {
     text-align: center;
     color: white;
     font-family: 'open sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 40px;
     font-weight: 800;
     margin: 30px;   
 }
@@ -61,4 +61,42 @@ margin-bottom: 10px;
     border-width: 1px;
     color:  #328998;
     background: #328998;
+}
+
+
+.card {
+    margin: 0 20px;
+    background-color: #328998;
+}
+
+
+.card-group {
+    border: 1px black;
+    margin-bottom: 100px;
+}
+
+
+.card-title {
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card:hover {
+    background-color: rgb(46, 135, 237);
+    color: black;
+}
+
+
+.card-img-top {
+    padding: 2px;
 }
