@@ -12,3 +12,53 @@ body {
     font-family: 'open sans', sans-serif;
     font-weight: 700;
 }
+
+h4 {
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 30px;   
+}
+
+
+
+
+
+.col1, .col2, .col3 {
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+
+.icon1 {
+text-align: center;
+color: white;
+background-color: #328998;
+margin-bottom: 10px;
+}
+
+.icon2 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.linea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:  #328998;
+    background: #328998;
+}
