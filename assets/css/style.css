@@ -9,6 +9,10 @@ body {
 }
 
 
+p {
+    font-size: 25px;
+}
+
 .titulo {
     font-family: 'open sans', sans-serif;
     font-weight: 700;
@@ -128,3 +132,8 @@ footer {
 
 }
 
+.btn-light {
+    color: white;
+    background-color: #328998;
+    border-color: #f8f9fa;
+}
