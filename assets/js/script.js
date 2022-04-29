@@ -1,4 +1,12 @@
+// Esta función sirve para opacar el backgrond del navbar
+var lastScrollTop = 0;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+       $("#navbar").removeClass( "bg-transparent" ).addClass( "bg-primary" );
+});
 
+
+// Cambio de color card
 $(".card").hover(
     function () {
       var cardChange = $(this); // caching $(this)
